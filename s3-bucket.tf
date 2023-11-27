@@ -1,5 +1,5 @@
 module "s3-bucket" {
-  source  = "app.terraform.io/instruqt-tfc-org/s3-bucket/aws"
+  source  = "app.terraform.io/TFC-instruqt-org/s3-bucket/aws"
   version = "2.8.0"
 
   bucket_prefix = var.prefix
